@@ -12,6 +12,23 @@
   </head>
 
   <body>
+    <!-- lembrando que temos user_signed_in? que retorna
+         true ou false -->
+
+    <!-- temos também current_user, que retorna a instância do
+         user que está logado naquele request -->
+
+    <!-- Protocolo HTTP / HTTPS -->
+    <!-- VERBS / METHODS -->
+    <!-- Padrão RESTful -->
+    <!-- GET, para buscar informação -->
+    <!-- POST, para criar informação -->
+    <!-- PATCH ou PUT, para atualizar informação -->
+    <!-- DELETE, para remover informação -->
+
+    <%= render 'shared/navbar' %>
+    <%= render 'shared/flashes' %>
+
     <%= yield %>
   </body>
 </html>
